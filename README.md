@@ -1,37 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💳 Patreon Clone — Full Stack Web Application
 
-## Getting Started
+A full-stack web application inspired by Patreon that allows creators to showcase their profiles and receive user support.  
+This project focuses on modern UI development, routing, authentication flow, and scalable frontend architecture using Next.js.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📌 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- ✅ User authentication and protected routes  
+- ✅ Dynamic routing using Next.js  
+- ✅ Responsive and mobile-first UI  
+- ✅ Reusable component architecture  
+- ✅ Clean state management  
+- ✅ Backend API integration  
+- ✅ Environment-based configuration  
+- ✅ Error handling and loading states  
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
 
-## Learn More
+**Frontend**
+- Next.js  
+- React  
+- Tailwind CSS  
+- JavaScript (ES6+)  
 
-To learn more about Next.js, take a look at the following resources:
+**Backend**
+- Node.js  
+- API Routes (Next.js)  
+- MongoDB  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Tools**
+- Git & GitHub  
+- Postman  
+- Vercel  
+- VS Code  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## ⚙️ Installation & Setup
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Clone the repository:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# patreon-clone
+git clone https://github.com/AdityaLad1/patreon-clone.git  
+cd patreon-clone  
+
+Install dependencies:
+
+npm install  
+
+Create a `.env.local` file in the root directory:
+
+MONGODB_URI=your_mongodb_connection_string  
+NEXTAUTH_SECRET=your_secret_key  
+
+Run the development server:
+
+npm run dev  
+
+Open in browser:
+
+http://localhost:3000  
+
+---
+
+## 📂 Project Structure
+
+patreon-clone  
+├── app / pages  
+├── components  
+├── lib  
+├── public  
+├── styles  
+└── README.md  
+
+---
+
+## 🔒 Security & Best Practices
+
+- Environment variables are used for sensitive configuration.  
+- API routes are structured for scalability and maintainability.  
+- Input validation and error handling implemented.  
+- Modular component structure for clean code organization.  
+
+---
+
+## 📬 Contact
+
+- 👤 Author: Aditya Lad  
+- 📧 Email: adityanlad@gmail.com  
+- 🧑‍💻 GitHub: https://github.com/AdityaLad1  
+
+---
+
+⭐ If you find this project useful, feel free to star the repository!
